@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZCNetWorkingBlock.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ZCNetWorkingBlock *block1 = [[ZCNetWorkingBlock alloc]init];
+    [block1 requestWithURLString:@"" parameters:@"" type:0 success:^(id responseObj) {
+        NSString *string = [NSJSONSerialization JSONObjectWithData:responseObj options:NSJSONReadingMutableContainers error:nil];
+    } file:^(NSError *error) {
+        NSLog(@"lalala");
+    }];
 }
 
 

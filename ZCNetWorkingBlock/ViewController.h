@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZCNetWorkingBlock.h"
 
 @interface ViewController : UIViewController
 
