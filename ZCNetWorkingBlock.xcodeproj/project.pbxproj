@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					F04496911FB28E4800E7D07A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DVTDH83439;
 						ProvisioningStyle = Automatic;
 					};
 					F04496AA1FB28E4900E7D07A = {
@@ -422,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVTDH83439;
 				INFOPLIST_FILE = ZCNetWorkingBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.ZCNetWorkingBlock";
@@ -433,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVTDH83439;
 				INFOPLIST_FILE = ZCNetWorkingBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.ZCNetWorkingBlock";
